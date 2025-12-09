@@ -1,43 +1,12 @@
-.body {
+body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #f4f4fd;
-  font-weight: regular;
+  background-color: #ffffff;
   font-size: 16px;
-  line-height: 140%;
-  letter-spacing: 2%;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
 }
 
-.hero {
-  background-color: #2e2f42;
-  text-align: center;
-}
-
-.hero-title {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 56px;
-  letter-spacing: 1.12px;
-  line-height: 60px;
-  color: #ffffff;
-}
-
-.hero-button {
-  background-color: #4d5ae5;
-  color: #ffffff;
-  font-size: 16px;
-  cursor: pointer;
-  margin-left: auto;
-}
-
-.button:hover,
-.button:focus {
-  background-color: #4d5ae5;
-}
-
-.Light {
-  background-color: #f4f4fd;
-}
 a {
   text-decoration: none;
 }
@@ -45,6 +14,32 @@ a {
 ul,
 ol {
   list-style: none;
+}
+.logo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  line-height: 28px;
+  color: #434455;
+  text-transform: uppercase;
+}
+.logo-accent {
+  color: #4d5ae5;
+}
+
+.nav-link {
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  margin-right: 32px;
+}
+.nav-link:hover {
+  color: #4d5ae5;
+}
+
+.page-nav {
+  align-items: center;
 }
 
 .page-nav .link {
@@ -55,7 +50,74 @@ ol {
   color: #4d5ae5;
 }
 
-.text {
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+}
+
+.hero-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 56px;
+  letter-spacing: 1.12px;
+  line-height: 60px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.hero-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
   font-size: 16px;
-  line-height: 140%;
+  cursor: pointer;
+  display: block;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.section-title {
+  text-align: left;
+}
+.Light {
+  background-color: #f4f4fd;
+  padding: 100px 0;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #ffffff;
+}
+.footer-logo {
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+.logo-accen1 {
+  color: rgba(244, 244, 253, 1);
 }
