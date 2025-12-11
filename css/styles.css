@@ -6,7 +6,6 @@ body {
   background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 a {
@@ -28,7 +27,7 @@ address {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -48,7 +47,7 @@ address {
 .contact-link {
   color: #434455;
   font-size: 16px;
-  line-height: 1.5x;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
 }
@@ -70,7 +69,7 @@ address {
 .hero-title {
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 48px;
@@ -84,6 +83,7 @@ address {
   line-height: 1.5;
   padding: 16px 32px;
   border-radius: 4px;
+  letter-spacing: 0.04em;
   border: none;
   cursor: pointer;
   display: block;
@@ -107,7 +107,7 @@ address {
 .title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -151,7 +151,7 @@ p {
 .feature-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
